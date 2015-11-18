@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Opgave 1 naam + leeftijd</title>
+
+	<script>
+	var voornaam; 
+	var achternaam;
+	var geboortejaar;
+	var leeftijd;
+	
+	voornaam = prompt("what is je voornaam?");
+	achternaam = prompt("what is je achternaam?");
+	geboortejaar = prompt("what is je geboortejaar?");
+	leeftijd = new Date().getFullYear() - geboortejaar;
+
+
+	alert("Hallo " + voornaam +" " + achternaam + "Volgens mijn berekening ben jij " + leeftijd + "jaar oud");
+	</script>
+</head>
+
+<body>
+</body>
+</html>
