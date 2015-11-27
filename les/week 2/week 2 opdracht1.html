@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title> week 2 opdracht 1 </title>
+</head>
+<body>
+	
+	<input type = "button" value="klik hier" onclick="vergelijkWoorden()"/>
+	
+	<script>
+	var vergelijkWoorden = function (){
+
+		var woord1 = prompt("vul woord 1 in");
+		var woord2 = prompt("vul woord 2 in");
+	
+	
+
+		if (woord1.length > woord2.length) {
+			alert("woord 1 is langer het bevat " + woord1.length + " letters" );
+		}
+		else {
+			alert("woord 2 is langer het bevat " + woord2.length + " letters");
+		}
+	}
+	
+	</script>
+
+</body>
+</html>
